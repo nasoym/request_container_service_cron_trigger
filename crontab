@@ -1,0 +1,2 @@
+* * * * * curl -s "http://localhost:9090/-/inactive" >> /var/log/cron.log
+* * * * * curl -s "http://localhost:9090/-/pull_all" >> /var/log/cron.log
