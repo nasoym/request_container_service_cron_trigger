@@ -1,3 +1,2 @@
-* * * * * curl -s "http://rcs_controller:8080/inactive" >> /var/log/cron.log
+*/5 * * * * curl -s "http://rcs_controller:8080/inactive/15" >> /var/log/cron.log
 * * * * * curl -s "http://rcs_controller:8080/pull_all" >> /var/log/cron.log
-
